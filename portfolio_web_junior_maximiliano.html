@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Maximiliano</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      color: #cbd5e1;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 12px 24px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .about {
+      text-align: center;
+      color: #cbd5e1;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .skill {
+      background: #1e293b;
+      padding: 12px 20px;
+      border-radius: 10px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .project-card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      color: #cbd5e1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #60a5fa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hola, soy Maximiliano</h1>
+    <p>
+      Desarrollador web junior de Argentina enfocado en frontend,
+      mantenimiento de sitios web y gestión de contenido.
+    </p>
+    <a href="#projects" class="btn">Ver proyectos</a>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p class="about">
+      Actualmente estoy aprendiendo HTML, CSS y JavaScript.
+      Me interesa seguir creciendo profesionalmente y trabajar
+      en proyectos remotos nacionales e internacionales.
+    </p>
+  </section>
+
+  <section>
+    <h2>Tecnologías</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">WordPress</div>
+      <div class="skill">GitHub</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos</h2>
+
+    <div class="projects">
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>
+          Página web responsive creada con HTML y CSS.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Tienda Online</h3>
+        <p>
+          Diseño de ecommerce moderno con estructura responsive.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Portfolio Personal</h3>
+        <p>
+          Sitio personal para mostrar proyectos y habilidades.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p style="text-align:center; color:#cbd5e1;">
+      LinkedIn: https://www.linkedin.com/in/maximiliano-ber%C3%B3n-7a21b6346/<br>
+      GitHub: https://github.com/maxberon58-cpu<br>
+      Email: maxberon58@gmail.com
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Maximiliano - Portfolio Web</p>
+  </footer>
+
+</body>
+</html>
